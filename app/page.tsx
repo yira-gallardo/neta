@@ -24,11 +24,9 @@ export default function Home() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
           >
-            <span className="text-sm sm:text-lg font-semibold tracking-wide">
-              20 YEARS EXPERIENCE
-            </span>
-            <span className="text-sm sm:text-lg font-semibold tracking-wide">
-              STRATEGIC AND CREATIVE COMMUNICATIONS PARTNER
+            <span className="text-sm sm:text-lg  tracking-wide">
+              <span className="font-bold">20 YEARS EXPERIENCE</span> STRATEGIC
+              AND CREATIVE COMMUNICATIONS PARTNER
             </span>
           </motion.div>
         </div>
@@ -40,8 +38,11 @@ export default function Home() {
             transition={{ duration: 1 }}
           >
             <div className="flex flex-col text-left w-full">
-              <h1 className="text-4xl sm:text-8xl font-extrabold">NETA</h1>
-              <h2 className="text-2xl sm:text-4xl font-light mt-2">COMUNICA</h2>
+              <img
+                src="/img/img-2.png"
+                alt="Neta Comunica Logo"
+                className="w-40 h-auto sm:w-48 md:w-64 lg:w-72 xl:w-80"
+              />
             </div>
             <div className="text-left">
               <p className="mt-2 md:mt-8 text-sm sm:text-lg max-w-4xl leading-relaxed">
@@ -61,7 +62,7 @@ export default function Home() {
             transition={{ duration: 0.8 }}
           >
             <h3 className="text-sm sm:text-4xl font-bold flex items-center">
-              TiRUTH IS RELATIVE, BUT NETA IS ABSOLUTE
+              TRUTH IS RELATIVE, BUT NETA IS ABSOLUTE
               <Image
                 src="/img/img-1.png"
                 alt="Estrellita"
